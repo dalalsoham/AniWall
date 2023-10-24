@@ -1,10 +1,10 @@
 import 'package:aniwall/model/categories_model.dart';
 
-String apiKEY = "[API_KEY]";
+// String apiKEY = "zYmnmgu-7uKOazPVxOQLH9iykWKHglVjJNxf1DThPeg";
 
-List<CategorieModel> getCategories() {
-  List<CategorieModel> categories = new List();
-  CategorieModel categorieModel = new CategoriesModel();
+List<CategoriesModel> getCategories() {
+  List<CategoriesModel> categories = [];
+  CategoriesModel categorieModel = new CategoriesModel();
 
   //
   categorieModel.imgUrl =
@@ -29,8 +29,8 @@ List<CategorieModel> getCategories() {
 
   //
   categorieModel.imgUrl =
-      "https://images.pexels.com/photos/466685/pexels-photo-466685.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500";
-  categorieModel.categorieName = "City";
+      "https://images.pexels.com/photos/264905/pexels-photo-264905.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2";
+  categorieModel.categorieName = "Anime";
   categories.add(categorieModel);
   categorieModel = new CategoriesModel();
 
